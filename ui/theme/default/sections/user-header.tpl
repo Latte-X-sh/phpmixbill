@@ -119,7 +119,7 @@
 						</ul>
 					</li>
 				
-					<li {if $_system_menu eq 'voucher'}class="open"{/if}>
+					<!--<li {if $_system_menu eq 'voucher'}class="open"{/if}>
 						<a href="#" onClick="toggleDropdownMobile(this)">
 							<i class="ion ion-card"></i>
 							<span class="text">{$_L['Voucher']}</span>
@@ -129,7 +129,7 @@
 							<li {if $_system_menu eq 'voucher'}class="active"{/if}><a href="{$_url}voucher/activation">{$_L['Voucher_Activation']}</a></li>
 							<li {if $_system_menu eq 'voucher'}class="active"{/if}><a href="{$_url}voucher/list-activated">{$_L['List_Activated_Voucher']}</a></li>
 						</ul>
-					</li>
+					</li>-->
 					<li {if $_system_menu eq 'order'}class="active"{/if}>
 						<a href="{$_url}page/Order_Voucher">
 							<i class="ion ion-ios-cart"></i>

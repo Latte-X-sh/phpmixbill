@@ -82,7 +82,7 @@
 					</div>
 					<div class="row">
 						<div class="col-md-7">
-							<div class="panel panel-default mb20 panel-hovered project-stats table-responsive">
+							<!--<div class="panel panel-default mb20 panel-hovered project-stats table-responsive">
 								<div class="panel-heading">Vouchers Stock</div>
 								<div class="panel-body">	
 									<table class="table">
@@ -109,7 +109,7 @@
 											</tr>
 									</table>
 								</div>
-							</div>
+							</div>-->
 							<div class="panel panel-default mb20 panel-hovered project-stats table-responsive">
 								<div class="panel-heading">{$_L['User_Expired_Today']}</div>
 								<div class="panel-body">
@@ -153,12 +153,12 @@
 									</ul>
 								</div>
 							</div>
-							<div class="panel panel-default panel-hovered mb20 activities">
+							<!--<div class="panel panel-default panel-hovered mb20 activities">
 								<div class="panel-heading">PHPMIXBILL</div>
 								<div class="panel-body">
 									{$_L['Welcome_Text_Admin']}
 								</div>
-							</div>
+							</div>-->
 						</div>
 						
 					</div>
@@ -171,10 +171,10 @@
 									<p>{$_L['Welcome_Text_User']}</p>
 									<ul>
 										<li> {$_L['Account_Information']}</li>
-										<li> <a href="{$_url}voucher/activation">{$_L['Voucher_Activation']}</a></li>
-										<li> <a href="{$_url}voucher/list-activated">{$_L['List_Activated_Voucher']}</a></li>
+										
+										
 										<li> <a href="{$_url}accounts/change-password">{$_L['Change_Password']}</a></li>
-										<li> {$_L['Order_Voucher']}</li>
+										
 										<li> {$_L['Private_Message']}</li>
 									</ul>
 								</div>

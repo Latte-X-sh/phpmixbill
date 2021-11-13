@@ -164,8 +164,8 @@
 						</a>
 						<ul class="inner-drop list-unstyled">
 							<li {if $_system_menu eq 'prepaid'}class="active"{/if}><a href="{$_url}prepaid/list">{$_L['Prepaid_User']}</a></li>
-							<li {if $_system_menu eq 'prepaid'}class="active"{/if}><a href="{$_url}prepaid/voucher">{$_L['Prepaid_Vouchers']}</a></li>
-							<li {if $_system_menu eq 'prepaid'}class="active"{/if}><a href="{$_url}prepaid/refill">{$_L['Refill_Account']}</a></li>
+							<!--<li {if $_system_menu eq 'prepaid'}class="active"{/if}><a href="{$_url}prepaid/voucher">{$_L['Prepaid_Vouchers']}</a></li>
+							<li {if $_system_menu eq 'prepaid'}class="active"{/if}><a href="{$_url}prepaid/refill">{$_L['Refill_Account']}</a></li>-->
 							<li {if $_system_menu eq 'prepaid'}class="active"{/if}><a href="{$_url}prepaid/recharge">{$_L['Recharge_Account']}</a></li>
 						</ul>
 					</li>
@@ -242,10 +242,10 @@
 							<i class="arrow ion-chevron-left"></i>
 						</a>
 						<ul class="inner-drop list-unstyled">
-							<li {if $_system_menu eq 'pages'}class="active"{/if}><a href="{$_url}pages/Order_Voucher">{$_L['Order_Voucher']}</a></li>
-							<li {if $_system_menu eq 'pages'}class="active"{/if}><a href="{$_url}pages/Voucher">{$_L['Voucher']} Template</a></li>
 							<li {if $_system_menu eq 'pages'}class="active"{/if}><a href="{$_url}pages/Announcement">{$_L['Announcement']} Editor</a></li>
-							<li {if $_system_menu eq 'pages'}class="active"{/if}><a href="{$_url}pages/Registration_Info">{$_L['Registration_Info']} Editor</a></li>
+							<!--<li {if $_system_menu eq 'pages'}class="active"{/if}><a href="{$_url}pages/Order_Voucher">{$_L['Order_Voucher']}</a></li>
+							<li {if $_system_menu eq 'pages'}class="active"{/if}><a href="{$_url}pages/Voucher">{$_L['Voucher']} Template</a></li>
+							<li {if $_system_menu eq 'pages'}class="active"{/if}><a href="{$_url}pages/Registration_Info">{$_L['Registration_Info']} Editor</a></li>-->
 						</ul>
 					</li>
 					<li {if $_system_menu eq 'settings'}class="open"{/if}>
@@ -262,12 +262,12 @@
 							<li>&nbsp;</li>
 						</ul>
 					</li>
-					<li {if $_system_menu eq 'disquss'}class="active"{/if}>
+					<!--<li {if $_system_menu eq 'disquss'}class="active"{/if}>
 						<a href="{$_url}disquss">
 							<i class="ion ion-chatbubbles"></i>
 							<span class="text">Disquss</span>
 						</a>
-					</li>
+					</li>-->
 				{/if}
 				</ul>
 
